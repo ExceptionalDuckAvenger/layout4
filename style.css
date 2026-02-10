@@ -1,0 +1,22 @@
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid_2col_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media (min-width: 1200) {
+  .grid_2col_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .order {
+    order: -10;
+    font-size: medium;
+  }
+}
